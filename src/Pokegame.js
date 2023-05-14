@@ -31,11 +31,13 @@ function Pokegame(props) {
         key="player1"
         cards={hand1_cards}
         total_points={hand1_total_points}
+        isWinner={hand1_total_points > hand2_total_points}
       />
       <Pokedex
         key="player2"
         cards={hand2_cards}
         total_points={hand2_total_points}
+        isWinner={hand2_total_points > hand1_total_points}
       />
     </>
   );

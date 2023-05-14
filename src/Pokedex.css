@@ -3,7 +3,9 @@
   margin: auto;
 }
 
-.Pokedex h1 {
+.Pokedex h1,
+h2,
+h3 {
   text-align: center;
 }
 
@@ -15,4 +17,12 @@
   flex-wrap: wrap;
   background: rgb(79, 77, 77);
   border-radius: 10px;
+}
+
+.Pokedex-winner {
+  color: green;
+}
+
+.Pokedex-loser {
+  color: red;
 }
