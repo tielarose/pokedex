@@ -1,10 +1,10 @@
 import "./App.css";
 import "./Pokedex.css";
 import "./Pokecard.css";
-import Pokedex from "./Pokedex";
+import Pokegame from "./Pokegame";
 
 function App() {
-  return <Pokedex />;
+  return <Pokegame />;
 }
 
 export default App;
