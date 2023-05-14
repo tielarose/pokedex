@@ -1,0 +1,17 @@
+.Pokedex {
+  width: 80vw;
+  margin: auto;
+}
+
+.Pokedex h1 {
+  text-align: center;
+}
+
+.Pokedex-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: rgb(79, 77, 77);
+  border-radius: 10px;
+  padding: 20px 0;
+}
